@@ -7,7 +7,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// countOnly FUNCTION
+// countOnly FUNCTION from instruction of @LHL
 // inside the loop,
 //  if item in itemsToCount
 //   increment the counter for each item:
