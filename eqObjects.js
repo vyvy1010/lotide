@@ -1,26 +1,6 @@
+const eqArrays = require('./eqArrays');
 
-// eqArrays
-const eqArrays = function(array1, array2) {
-  if (array1.length !== array2.length) {
-    return false;
-  } else {
-    for (let i = 0; i < array1.length; i++) {
-      if (array1[i] !== array2[i]) {
-        return false;
-      }
-    }
-  }
-  return true;
-};
-
-// assertEqual
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`😃 Assertion passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`❌ Assertion failed: ${actual}!=== ${expected}`);
-  }
-};
+const assertEqual = require('./assertEqual');
 
 // eqObjects FUNCITON COMPARES 2 OBJECTS
 const eqObjects = function(object1, object2) {
@@ -60,3 +40,5 @@ assertEqual(eqObjects(multiColorShirtObject, anotherMultiColorShirtObject), true
 const longSleeveMultiColorShirtObject = { size: "medium", colors: ["red", "blue"], sleeveLength: "long" };
 eqObjects(multiColorShirtObject, longSleeveMultiColorShirtObject); // => false
 assertEqual(eqObjects(multiColorShirtObject, longSleeveMultiColorShirtObject), false);
+
+module.exports = eqObjects;
