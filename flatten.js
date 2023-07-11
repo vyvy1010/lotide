@@ -1,5 +1,3 @@
-const assertArraysEqual = require('./assertArraysEqual');
-
 const flatten = function(nestedArray) {
   let flattenArray = [];
   for (let i = 0; i < nestedArray.length; i++) {
@@ -13,6 +11,5 @@ const flatten = function(nestedArray) {
   }
   return flattenArray;
 };
-
 
 module.exports = flatten;

@@ -1,5 +1,3 @@
-const assertArraysEqual = require('./assertArraysEqual');
-
 const countLetters = function(inputString) {
   let outputObject = {};
   let noSpaceString = inputString.split(' ').join('');
@@ -12,7 +10,5 @@ const countLetters = function(inputString) {
   }
   return outputObject;
 };
-
-
 
 module.exports = countLetters;

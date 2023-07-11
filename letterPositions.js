@@ -1,5 +1,3 @@
-const assertArraysEqual = require('./assertArraysEqual');
-
 // letterPositions FUNCTION
 // for...loop
 //  create array before push any element
@@ -15,7 +13,5 @@ const letterPositions = function(sentence) {
   }
   return results;
 };
-
-
 
 module.exports = letterPositions;

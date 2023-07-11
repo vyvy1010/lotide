@@ -9,6 +9,4 @@ const findKey = function(inputObject, callback) {
   return undefined;
 };
 
-
-
 module.exports = findKey;

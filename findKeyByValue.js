@@ -1,14 +1,10 @@
-const assertEqual = require('./assertEqual'); 
-
 // findKeyByValue FUNCTION
-const findKeyByValue = function(bestTVShowsByGenre, TVShow) {
-  for (const Genre of Object.keys(bestTVShowsByGenre)) {
-    if (bestTVShowsByGenre[Genre] === TVShow) {
-      return Genre;
+const findKeyByValue = function(object, value) {
+  for (const key of Object.keys(object)) {
+    if (object[key] === value) {
+      return key;
     }
   }
 };
-
-
 
 module.exports = findKeyByValue;

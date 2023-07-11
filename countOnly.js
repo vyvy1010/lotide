@@ -1,4 +1,3 @@
-const assertEqual = require('./assertEqual');
 
 // countOnly FUNCTION from instruction of @LHL
 // inside the loop,

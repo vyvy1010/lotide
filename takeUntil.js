@@ -8,8 +8,4 @@ const takeUntil = function(array, callback) {
   return results;
 };
 
-const assertArraysEqual = require('./assertArraysEqual');
-
-
-
 module.exports = takeUntil;
