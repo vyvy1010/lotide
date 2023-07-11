@@ -8,7 +8,9 @@ const without = function(source, itemsToRemove) {
           withoutRemovedItems.push(source[i]);
         }
       }
-    } else withoutRemovedItems.push(source[i]);
+    } else {
+      withoutRemovedItems.push(source[i]);
+    }
   }
   return withoutRemovedItems;
 };
