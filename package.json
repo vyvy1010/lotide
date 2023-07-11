@@ -2,7 +2,7 @@
   "name": "@vypham/lotide",
   "version": "1.0.1",
   "description": "A mini clone of the [Lodash](https://lodash.com) library.",
-  "main": "@vypham/lotide",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
