@@ -1,5 +1,7 @@
 const without = require("../without");
+
 const assertArraysEqual = require("../assertArraysEqual");
+
 describe("#without", () => {
   it("returns correct result", () => {
     // Test case:
